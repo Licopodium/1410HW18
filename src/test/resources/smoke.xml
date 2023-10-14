@@ -8,8 +8,10 @@
     </groups>
     <test name="smoke_tests" >
         <classes>
+            <class name="tests.RegistrationTests" />
             <class name="tests.LoginTests" />
             <class name="tests.AddNewContactTests" />
+
         </classes>
     </test>
 </suite>

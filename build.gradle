@@ -40,6 +40,12 @@ task mytest(type: Test){
             suites 'src/test/resources/add.xml'
         } else if(suite.equals('reg')){
             suites 'src/test/resources/reg.xml'
+//        } else if(suite.equals('smoke')){
+//            suites 'src/test/resources/smoke.xml'
+//        } else if(suite.equals('negative')){
+//            suites 'src/test/resources/negative.xml'
+//        } else if(suite.equals('positive')){
+//            suites 'src/test/resources/positive.xml'
         } else {
             suites 'src/test/resources/testng.xml'
         }
